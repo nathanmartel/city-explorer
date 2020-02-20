@@ -1,8 +1,6 @@
 const { app } = require('../app.js');
 const request = require('supertest');
-const cors = require('cors');
 
-app.use(cors());
 
 describe('/GET /location/?search=portland', () => {
     test('It should respond with an object of the correct shape',
