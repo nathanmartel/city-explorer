@@ -1,4 +1,4 @@
-const { app } = require('./app.js');
+const { app } = require('../app.js');
 const request = require('supertest');
 const cors = require('cors');
 
