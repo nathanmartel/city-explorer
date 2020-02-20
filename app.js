@@ -169,6 +169,7 @@ app.get('/events', async(req, res) => {
 });
 
 app.get('*', (req, res) => {
+    res.statusCode = 404;
     res.send('404 not found');
 });
 
